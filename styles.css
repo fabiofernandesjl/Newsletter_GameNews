@@ -99,3 +99,17 @@ body {
   cursor: pointer;
   background-color: var(--bg-button-color-2);
 }
+
+.alert-container {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--text-color);
+  background-color: var(--bg-button-color-1);
+  transition: width 2s;
+}
